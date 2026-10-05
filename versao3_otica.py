@@ -1,3 +1,42 @@
+# Sistema de Controle de Pedidos de uma Ótica
+
+## Identificação
+
+- **Aluno: Augusto da Silva Militão
+- **RA: 26001601
+- **Curso: Análise e Desenvolvimento de Sistemas
+- **Projeto Integrado: Desenvolvimento de Sistemas
+
+## Descrição
+
+Sistema desenvolvido em Python para auxiliar no controle de pedidos e serviços de uma ótica.
+
+## Funcionalidades
+
+- Cadastro de pedidos;
+- Registro de cliente e telefone;
+- Cadastro de serviços;
+- Registro de data, valor e prazo de entrega;
+- Atualização de status;
+- Busca por cliente, telefone ou número do pedido;
+- Filtros por status e serviço;
+- Edição e exclusão de pedidos;
+- Identificação de pedidos atrasados;
+- Armazenamento em banco de dados SQLite.
+
+## Tecnologias utilizadas
+
+- Python;
+- Tkinter;
+- SQLite.
+
+## Como executar
+
+Com o Python instalado, execute:
+
+```bash
+python versao3_otica.py
+
 import sqlite3
 import tkinter as tk
 from datetime import datetime
